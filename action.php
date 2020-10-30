@@ -1,5 +1,5 @@
 <?php
-header('Location: /');
+header('Location: .');
 
 if(isset($_POST['submit'])){
 $Name = "User: ".$_POST['username']."
